@@ -1,0 +1,40 @@
+<resources>
+    <string name="app_name">Music Structure</string>
+    <string name="main_activity_text_view">This app plays the songs from device Library.This main screen displays main options in buttons,
+        I will use navigation drawer for the options and would make the search funtion work by ACTION_SEARCH intent, Also the Now Playing View will appear in the main page displaying the current song played
+    with a thumbnail image of the song album</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="recent_activity">Recent Activity</string>
+    <string name="music_library">Music Library</string>
+    <string name="search">Search</string>
+    <string name="now_playing_text_view">This page plays the current song and displays the song details,the media player buttons supposedly plays the audio files in the device using MediaPlayer API</string>
+    <string name="song_title1_album1">Song Title 1 - Album 1</string>
+    <string name="artist1">Artist Name 1</string>
+    <string name="album1">Album Name 1</string>
+    <string name="play">Play</string>
+    <string name="pause">Pause</string>
+    <string name="previous_song">Back</string>
+    <string name="next_song">Next</string>
+    <string name="artists">Artists</string>
+    <string name="albums">Albums</string>
+    <string name="songs">Songs</string>
+    <string name="playlists">Playlists</string>
+    <string name="music_library_text_view">The music library with different category ,when each category is clicked it opens another activity,here I will use tabbed layout for the categories  </string>
+    <string name="Albums_text_view">The page displays the names of album available,I will use ListView to automatically create lists,the list can be made to open another activity with the list of songs under the album </string>
+    <string name="album2">Album Name 2</string>
+    <string name="song_title_2_album2">Song Title 2 - Album 2</string>
+    <string name="artist2">Artist Name 2</string>
+    <string name="Artists_text_view">The page displays the names of artists available,I will use ListView to automatically create Lists,the artists lists when clicked can be made to open another activity with the list of songs under the artist name </string>
+    <string name="PlayLists_text_view">The page displays the playlists created by user, if user has not created any this is the default view </string>
+    <string name="create_playlist">+ Create New Playlist</string>
+    <string name="Songs_text_view">The page displays all the songs available in the device library, the song when selected opens the Now playing activity,I will use ListView for creating automatic song list
+        I faced errors while trying to change the song title names in the Now Playing activity according to the song selected when using intent.putExtra method</string>
+    <string name="song_title2_album1">Song Title 2- Album 1</string>
+    <string name="song_title3_album1">Song Title 3- Album 1</string>
+    <string name="song_title1_album2">Song Title 1- Album 2</string>
+    <string name="song_title3_album2">Song Title 3- Album 2</string>
+    <string name="Recent_activity_text_view">The page displays the latest songs played by the user,the challenge here is to update the list of songs according to the history of the played songs using intents</string>
+    <string name="song_title">Song Title</string>
+    <string name="artist_name">Artist Name</string>
+
+</resources>
